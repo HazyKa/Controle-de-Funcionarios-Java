@@ -1,0 +1,36 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+input[type="submit"] {
+    background-color: #dddddd;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 0.5px solid black;
+}
+
+input[type="submit"]:hover {
+    background-color: #cccccc;
+    border: 0.5px solid black;
+}

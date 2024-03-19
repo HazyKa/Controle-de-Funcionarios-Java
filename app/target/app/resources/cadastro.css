@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(218, 228, 202);
+}
+
+.container h1 {
+    font-size: 30px;
+    margin-top: 10vh;
+    background-color: rgb(175, 211, 118);
+    background-color: rgb(184, 211, 140);
+    width: 350px;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+    padding: 10px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.input label {
+    font-size: 22px;
+
+}
+
+.input input, select {
+    width: 200px;
+    height: 30px;
+    float: right;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.input input:focus-visible {
+    background-color: rgb(222, 255, 191);
+    transition: 0.5s;
+}
+
+.input div {
+    padding: 5px;
+}
+
+.campoCadastro button{
+    font-size: 20px;
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    border: 0.5px solid green;
+    font-weight: bold;
+    background-color: rgb(183, 255, 88);
+    margin-top: 20px;
+}
+
+
+.campoCadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    background-color: rgb(184, 211, 140);
+    width: 350px;
+    border-radius: 0 0 20px 20px;
+}
